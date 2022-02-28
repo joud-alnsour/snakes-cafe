@@ -35,7 +35,7 @@ Unicorn Tears
 print(massage)
 
 meals = ["Wings", "Cookies", "Spring Rolls", "Salmon", "Steak", "Meat Tornado", "A Literal Garden", "Ice Cream", "Cake", "Pie", "Coffee", "Tea", "Unicorn Tears"]
-requests = {item:0 for item in meals}
+requests = {meal:0 for meal in meals}
 
 while True:
     order = input("> ")
