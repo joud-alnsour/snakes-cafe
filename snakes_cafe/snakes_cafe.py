@@ -49,7 +49,7 @@ while True:
         for j in [f"{option}: {number}" for option,number in requests.meals() if number!=0]:
             print(j)
     else:
-        print(f"\"{order}\" isn't something that's on the menu\n")
+        print(" isn't something that's on the menu\n")
         while True:
             choice = input("Is there anything else you'd want to order? (y/n) : ")
             if (choice == "y") or (choice == "n"):
